@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(leaflet)
 Team_name<-c("Dallas Mavericks", "Houston Rockets", "Memphis Grizzlies", "New Orleans Pelicans", "San Antonio Spurs")
 Arena<-c("American Airlines Center", "Toyota Center", "FedExForum", "Smoothie King Center", "AT&T Center")
+
 lat<-c(32.790556, 29.750833, 35.138333, 29.948889, 29.426944)
 lng<-c(-96.810278, -95.362222,-90.050556, -90.081944, -98.4375)
 df<-data.frame(Team_name, Arena, lat, lng)
